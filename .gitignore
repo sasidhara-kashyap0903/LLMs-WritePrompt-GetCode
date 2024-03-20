@@ -1,3 +1,4 @@
 .env
 readme.txt
 *.pyc
+venv
