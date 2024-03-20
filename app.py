@@ -22,7 +22,7 @@ def scrollable_text(text):
 def main():
     # change the project name on the browser tab using streamlit
     st.set_page_config(page_title="Write Prompt - Get Code in All Languages", layout="wide")
-    st.title("AI Coding Companion")
+    st.title("Write Prompt - Get Code in All Languages")
     if "api_key" not in st.session_state:
         st.session_state.api_key = ""
     if "prompt" not in st.session_state:
